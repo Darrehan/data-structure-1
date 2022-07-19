@@ -18,7 +18,7 @@ int main()
     struct rectangle r={5,5};
     printf(" length = %d   breadth = %d \n",r.length,r.breadth);
     fun(&r);
-    printf("actual parameters are not changed \n");
+    printf("actual parameters are changed \n");
     printf("length = %d breadth = %d \n",r.length,r.breadth);
     return 0;
 }
